@@ -1,0 +1,888 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2200 1950 2200 1800
+$Comp
+L power:GND #PWR07
+U 1 1 5DAD982E
+P 2200 1950
+F 0 "#PWR07" H 2200 1700 50  0001 C CNN
+F 1 "GND" H 2205 1777 50  0000 C CNN
+F 2 "" H 2200 1950 50  0001 C CNN
+F 3 "" H 2200 1950 50  0001 C CNN
+	1    2200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5DAD906B
+P 2200 1800
+F 0 "#FLG03" H 2200 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 1973 50  0000 C CNN
+F 2 "" H 2200 1800 50  0001 C CNN
+F 3 "~" H 2200 1800 50  0001 C CNN
+	1    2200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1800 1750 1950
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5E29D9FD
+P 1750 1800
+F 0 "#FLG01" H 1750 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 1973 50  0000 C CNN
+F 2 "" H 1750 1800 50  0001 C CNN
+F 3 "~" H 1750 1800 50  0001 C CNN
+	1    1750 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5F1F432A
+P 6950 5800
+F 0 "J3" H 7030 5792 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7030 5701 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6950 5800 50  0001 C CNN
+F 3 "~" H 6950 5800 50  0001 C CNN
+	1    6950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5F1F5215
+P 6750 5900
+F 0 "#PWR0109" H 6750 5650 50  0001 C CNN
+F 1 "GND" H 6755 5727 50  0000 C CNN
+F 2 "" H 6750 5900 50  0001 C CNN
+F 3 "" H 6750 5900 50  0001 C CNN
+	1    6750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F1
+U 1 1 5F1FA18F
+P 6300 5800
+F 0 "F1" V 6075 5800 50  0000 C CNN
+F 1 "Polyfuse" V 6166 5800 50  0000 C CNN
+F 2 "Fuse:Fuse_Littelfuse_395Series" H 6350 5600 50  0001 L CNN
+F 3 "~" H 6300 5800 50  0001 C CNN
+	1    6300 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F2
+U 1 1 5F1FB246
+P 6600 5800
+F 0 "F2" V 6403 5800 50  0000 C CNN
+F 1 "Fuse" V 6494 5800 50  0000 C CNN
+F 2 "SamcSys_Parts:MF505" V 6530 5800 50  0001 C CNN
+F 3 "~" H 6600 5800 50  0001 C CNN
+	1    6600 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 5650 5700 5800
+Wire Wire Line
+	6050 5800 6150 5800
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F27CB61
+P 9600 5000
+F 0 "H3" H 9700 5046 50  0000 L CNN
+F 1 "MountingHole" H 9700 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9600 5000 50  0001 C CNN
+F 3 "~" H 9600 5000 50  0001 C CNN
+	1    9600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F27CB5B
+P 9600 5200
+F 0 "H4" H 9700 5246 50  0000 L CNN
+F 1 "MountingHole" H 9700 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9600 5200 50  0001 C CNN
+F 3 "~" H 9600 5200 50  0001 C CNN
+	1    9600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F267513
+P 8550 5000
+F 0 "H1" H 8650 5046 50  0000 L CNN
+F 1 "MountingHole" H 8650 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8550 5000 50  0001 C CNN
+F 3 "~" H 8550 5000 50  0001 C CNN
+	1    8550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F266923
+P 8550 5200
+F 0 "H2" H 8650 5246 50  0000 L CNN
+F 1 "MountingHole" H 8650 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8550 5200 50  0001 C CNN
+F 3 "~" H 8550 5200 50  0001 C CNN
+	1    8550 5200
+	1    0    0    -1  
+$EndComp
+Text Notes 2300 6700 0    50   ~ 0
+RD: 90ohm = (3.3V - 1.5V) / 0.020A
+$Comp
+L power:+BATT #PWR01
+U 1 1 5F66F9F6
+P 1750 1950
+F 0 "#PWR01" H 1750 1800 50  0001 C CNN
+F 1 "+BATT" H 1765 2123 50  0000 C CNN
+F 2 "" H 1750 1950 50  0001 C CNN
+F 3 "" H 1750 1950 50  0001 C CNN
+	1    1750 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+BATT #PWR09
+U 1 1 5F6778C0
+P 5700 5650
+F 0 "#PWR09" H 5700 5500 50  0001 C CNN
+F 1 "+BATT" H 5715 5823 50  0000 C CNN
+F 2 "" H 5700 5650 50  0001 C CNN
+F 3 "" H 5700 5650 50  0001 C CNN
+	1    5700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5F69292B
+P 3450 3000
+F 0 "J1" H 3530 2992 50  0000 L CNN
+F 1 "RN4020" H 3530 2901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3450 3000 50  0001 C CNN
+F 3 "~" H 3450 3000 50  0001 C CNN
+	1    3450 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F695810
+P 3750 3300
+F 0 "#PWR02" H 3750 3050 50  0001 C CNN
+F 1 "GND" H 3755 3127 50  0000 C CNN
+F 2 "" H 3750 3300 50  0001 C CNN
+F 3 "" H 3750 3300 50  0001 C CNN
+	1    3750 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2900 3750 2900
+Wire Wire Line
+	3750 2900 3750 3300
+Wire Wire Line
+	3650 3000 3850 3000
+Wire Wire Line
+	3850 3000 3850 2900
+Wire Wire Line
+	3650 3100 4050 3100
+Wire Wire Line
+	3650 3200 4050 3200
+Text Label 4000 3100 2    50   ~ 0
+TX_1
+Text Label 4000 3200 2    50   ~ 0
+RX_1
+$Comp
+L SamacSys_Parts:MBED-LPC1768 IC1
+U 1 1 5F6AB6E1
+P 4050 2300
+F 0 "IC1" H 4900 2565 50  0000 C CNN
+F 1 "MBED-LPC1768" H 4900 2474 50  0000 C CNN
+F 2 "SamcSys_Parts:DIPS2286W63P254L5370H300Q40N" H 5600 2400 50  0001 L CNN
+F 3 "https://os.mbed.com/platforms/mbed-LPC1768/" H 5600 2300 50  0001 L CNN
+F 4 "ARM mbed LPC1768 Module" H 5600 2200 50  0001 L CNN "Description"
+F 5 "3" H 5600 2100 50  0001 L CNN "Height"
+F 6 "mbed" H 5600 1800 50  0001 L CNN "Manufacturer_Name"
+F 7 "MBED-LPC1768" H 5600 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5F6A76FD
+P 2650 3700
+F 0 "#PWR010" H 2650 3450 50  0001 C CNN
+F 1 "GND" H 2655 3527 50  0000 C CNN
+F 2 "" H 2650 3700 50  0001 C CNN
+F 3 "" H 2650 3700 50  0001 C CNN
+	1    2650 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F6DC6E6
+P 3800 2400
+F 0 "#PWR04" H 3800 2150 50  0001 C CNN
+F 1 "GND" H 3805 2227 50  0000 C CNN
+F 2 "" H 3800 2400 50  0001 C CNN
+F 3 "" H 3800 2400 50  0001 C CNN
+	1    3800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2300 3800 2300
+Wire Wire Line
+	3800 2300 3800 2400
+$Comp
+L power:+5V #PWR06
+U 1 1 5F6DEBA4
+P 3950 2150
+F 0 "#PWR06" H 3950 2000 50  0001 C CNN
+F 1 "+5V" H 3965 2323 50  0000 C CNN
+F 2 "" H 3950 2150 50  0001 C CNN
+F 3 "" H 3950 2150 50  0001 C CNN
+	1    3950 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2150 3950 2400
+Wire Wire Line
+	3950 2400 4050 2400
+$Comp
+L SamacSys_Parts:TB6643KQ,8 IC4
+U 1 1 5F6E9BEC
+P 6850 2950
+F 0 "IC4" H 7578 2696 50  0000 L CNN
+F 1 "TB6643KQ,8" H 7578 2605 50  0000 L CNN
+F 2 "SamcSys_Parts:HSIP7-P-2.54A" H 7600 3050 50  0001 L CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=11271&prodName=TB6643KQ" H 7600 2950 50  0001 L CNN
+F 4 "Bi-CMOS Integrated Circuit Silicon Monolithic" H 7600 2850 50  0001 L CNN "Description"
+F 5 "" H 7600 2750 50  0001 L CNN "Height"
+F 6 "Toshiba" H 7600 2650 50  0001 L CNN "Manufacturer_Name"
+F 7 "TB6643KQ,8" H 7600 2550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "TB6643KQ,8" H 7600 2450 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/tb6643kq8/toshiba" H 7600 2350 50  0001 L CNN "Arrow Price/Stock"
+F 10 "757-TB6643KQ8" H 7600 2250 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Toshiba/TB6643KQ8?qs=rsevcuukUAx0YXF4UsKA1Q%3D%3D" H 7600 2150 50  0001 L CNN "Mouser Price/Stock"
+	1    6850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:TB6643KQ,8 IC5
+U 1 1 5F6EA960
+P 6850 3850
+F 0 "IC5" H 7578 3596 50  0000 L CNN
+F 1 "TB6643KQ,8" H 7578 3505 50  0000 L CNN
+F 2 "SamcSys_Parts:HSIP7-P-2.54A" H 7600 3950 50  0001 L CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=11271&prodName=TB6643KQ" H 7600 3850 50  0001 L CNN
+F 4 "Bi-CMOS Integrated Circuit Silicon Monolithic" H 7600 3750 50  0001 L CNN "Description"
+F 5 "" H 7600 3650 50  0001 L CNN "Height"
+F 6 "Toshiba" H 7600 3550 50  0001 L CNN "Manufacturer_Name"
+F 7 "TB6643KQ,8" H 7600 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "TB6643KQ,8" H 7600 3350 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/tb6643kq8/toshiba" H 7600 3250 50  0001 L CNN "Arrow Price/Stock"
+F 10 "757-TB6643KQ8" H 7600 3150 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Toshiba/TB6643KQ8?qs=rsevcuukUAx0YXF4UsKA1Q%3D%3D" H 7600 3050 50  0001 L CNN "Mouser Price/Stock"
+	1    6850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:TB6643KQ,8 IC2
+U 1 1 5F6EC2D1
+P 6850 1150
+F 0 "IC2" H 7578 896 50  0000 L CNN
+F 1 "TB6643KQ,8" H 7578 805 50  0000 L CNN
+F 2 "SamcSys_Parts:HSIP7-P-2.54A" H 7600 1250 50  0001 L CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=11271&prodName=TB6643KQ" H 7600 1150 50  0001 L CNN
+F 4 "Bi-CMOS Integrated Circuit Silicon Monolithic" H 7600 1050 50  0001 L CNN "Description"
+F 5 "" H 7600 950 50  0001 L CNN "Height"
+F 6 "Toshiba" H 7600 850 50  0001 L CNN "Manufacturer_Name"
+F 7 "TB6643KQ,8" H 7600 750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "TB6643KQ,8" H 7600 650 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/tb6643kq8/toshiba" H 7600 550 50  0001 L CNN "Arrow Price/Stock"
+F 10 "757-TB6643KQ8" H 7600 450 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Toshiba/TB6643KQ8?qs=rsevcuukUAx0YXF4UsKA1Q%3D%3D" H 7600 350 50  0001 L CNN "Mouser Price/Stock"
+	1    6850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5F6A76F7
+P 2350 3400
+F 0 "J2" H 2430 3392 50  0000 L CNN
+F 1 "RN4020" H 2430 3301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2350 3400 50  0001 C CNN
+F 3 "~" H 2350 3400 50  0001 C CNN
+	1    2350 3400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3300 2650 3700
+Wire Wire Line
+	2550 3400 2750 3400
+Wire Wire Line
+	2750 3400 2750 3300
+Text Label 2900 3500 2    50   ~ 0
+TX_2
+Text Label 2900 3600 2    50   ~ 0
+RX_2
+Wire Wire Line
+	2550 3300 2650 3300
+$Comp
+L SamacSys_Parts:TB6643KQ,8 IC3
+U 1 1 5F6E5000
+P 6850 2050
+F 0 "IC3" H 7578 1796 50  0000 L CNN
+F 1 "TB6643KQ,8" H 7578 1705 50  0000 L CNN
+F 2 "SamcSys_Parts:HSIP7-P-2.54A" H 7600 2150 50  0001 L CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=11271&prodName=TB6643KQ" H 7600 2050 50  0001 L CNN
+F 4 "Bi-CMOS Integrated Circuit Silicon Monolithic" H 7600 1950 50  0001 L CNN "Description"
+F 5 "" H 7600 1850 50  0001 L CNN "Height"
+F 6 "Toshiba" H 7600 1750 50  0001 L CNN "Manufacturer_Name"
+F 7 "TB6643KQ,8" H 7600 1650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "TB6643KQ,8" H 7600 1550 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/tb6643kq8/toshiba" H 7600 1450 50  0001 L CNN "Arrow Price/Stock"
+F 10 "757-TB6643KQ8" H 7600 1350 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Toshiba/TB6643KQ8?qs=rsevcuukUAx0YXF4UsKA1Q%3D%3D" H 7600 1250 50  0001 L CNN "Mouser Price/Stock"
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3700 5850 3700
+Wire Wire Line
+	5850 3700 5850 1150
+Wire Wire Line
+	5750 3800 5950 3800
+Wire Wire Line
+	5950 3800 5950 1250
+Wire Wire Line
+	5750 3900 6050 3900
+Wire Wire Line
+	6050 3900 6050 2050
+Wire Wire Line
+	6150 2150 6150 4000
+Wire Wire Line
+	6150 4000 5750 4000
+Wire Wire Line
+	5750 4100 6250 4100
+Wire Wire Line
+	6350 4200 5750 4200
+Wire Wire Line
+	6750 950  6750 1750
+$Comp
+L power:+BATT #PWR012
+U 1 1 5F706385
+P 6750 950
+F 0 "#PWR012" H 6750 800 50  0001 C CNN
+F 1 "+BATT" H 6765 1123 50  0000 C CNN
+F 2 "" H 6750 950 50  0001 C CNN
+F 3 "" H 6750 950 50  0001 C CNN
+	1    6750 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3950 6850 3950
+Wire Wire Line
+	6750 3550 6850 3550
+Connection ~ 6750 3550
+Wire Wire Line
+	6750 3550 6750 4450
+Wire Wire Line
+	6850 2650 6750 2650
+Connection ~ 6750 2650
+Wire Wire Line
+	6750 2650 6750 3550
+Wire Wire Line
+	6150 2150 6850 2150
+Wire Wire Line
+	6050 2050 6850 2050
+Wire Wire Line
+	5950 1250 6850 1250
+Wire Wire Line
+	5850 1150 6850 1150
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5F6332A4
+P 6350 1450
+F 0 "J4" H 6430 1442 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6430 1351 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 6350 1450 50  0001 C CNN
+F 3 "~" H 6350 1450 50  0001 C CNN
+	1    6350 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J5
+U 1 1 5F6355CF
+P 6350 2350
+F 0 "J5" H 6430 2342 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6430 2251 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 6350 2350 50  0001 C CNN
+F 3 "~" H 6350 2350 50  0001 C CNN
+	1    6350 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J6
+U 1 1 5F63685C
+P 6350 3250
+F 0 "J6" H 6430 3242 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6430 3151 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 6350 3250 50  0001 C CNN
+F 3 "~" H 6350 3250 50  0001 C CNN
+	1    6350 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J7
+U 1 1 5F637A63
+P 6350 4150
+F 0 "J7" H 6430 4142 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6430 4051 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 6350 4150 50  0001 C CNN
+F 3 "~" H 6350 4150 50  0001 C CNN
+	1    6350 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1450 6650 1450
+Wire Wire Line
+	6650 1450 6650 2350
+$Comp
+L power:GND #PWR011
+U 1 1 5F6418A7
+P 6650 4600
+F 0 "#PWR011" H 6650 4350 50  0001 C CNN
+F 1 "GND" H 6655 4427 50  0000 C CNN
+F 2 "" H 6650 4600 50  0001 C CNN
+F 3 "" H 6650 4600 50  0001 C CNN
+	1    6650 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4150 6650 4150
+Connection ~ 6650 4150
+Wire Wire Line
+	6650 4150 6650 4600
+Wire Wire Line
+	6650 3250 6850 3250
+Connection ~ 6650 3250
+Wire Wire Line
+	6650 3250 6650 4150
+Wire Wire Line
+	6850 2350 6650 2350
+Connection ~ 6650 2350
+Wire Wire Line
+	6650 2350 6650 3250
+Wire Wire Line
+	6850 1350 6550 1350
+Wire Wire Line
+	6850 1550 6550 1550
+Wire Wire Line
+	6550 1550 6550 1450
+Wire Wire Line
+	6850 2250 6550 2250
+Wire Wire Line
+	6850 2450 6550 2450
+Wire Wire Line
+	6550 2450 6550 2350
+Wire Wire Line
+	6850 3150 6550 3150
+Wire Wire Line
+	6550 3250 6550 3350
+Wire Wire Line
+	6550 4050 6850 4050
+Wire Wire Line
+	6550 4150 6550 4250
+Wire Wire Line
+	6550 4250 6850 4250
+NoConn ~ 4050 2500
+NoConn ~ 4050 2600
+NoConn ~ 4050 2700
+NoConn ~ 4050 2800
+NoConn ~ 4050 2900
+NoConn ~ 4050 3000
+NoConn ~ 4050 3300
+NoConn ~ 4050 3400
+NoConn ~ 4050 3700
+NoConn ~ 4050 3800
+NoConn ~ 4050 3900
+NoConn ~ 4050 4000
+NoConn ~ 4050 4100
+NoConn ~ 4050 4200
+NoConn ~ 5750 2300
+NoConn ~ 5750 2400
+NoConn ~ 5750 2500
+NoConn ~ 5750 2600
+NoConn ~ 5750 2700
+NoConn ~ 5750 2800
+NoConn ~ 5750 2900
+NoConn ~ 5750 3000
+NoConn ~ 5750 3100
+NoConn ~ 5750 3200
+Wire Wire Line
+	6850 1750 6750 1750
+Connection ~ 6750 1750
+Wire Wire Line
+	6750 1750 6750 2650
+Wire Wire Line
+	4050 3500 2550 3500
+Wire Wire Line
+	4050 3600 2550 3600
+Wire Wire Line
+	6550 3350 6850 3350
+$Comp
+L power:+BATT #PWR03
+U 1 1 5F67EA39
+P 3750 5200
+F 0 "#PWR03" H 3750 5050 50  0001 C CNN
+F 1 "+BATT" H 3765 5373 50  0000 C CNN
+F 2 "" H 3750 5200 50  0001 C CNN
+F 3 "" H 3750 5200 50  0001 C CNN
+	1    3750 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5500 4200 5500
+Wire Wire Line
+	4200 5500 3850 5500
+Connection ~ 4200 5500
+Wire Wire Line
+	4200 5500 4200 5650
+Wire Wire Line
+	3850 5200 3900 5200
+Wire Wire Line
+	3750 5200 3850 5200
+Connection ~ 3850 5200
+$Comp
+L Device:C C6
+U 1 1 5F1E37E6
+P 3850 5350
+F 0 "C6" V 3598 5350 50  0000 C CNN
+F 1 "0.33u" V 3689 5350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3888 5200 50  0001 C CNN
+F 3 "~" H 3850 5350 50  0001 C CNN
+	1    3850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0116
+U 1 1 5F25D50E
+P 4850 5200
+F 0 "#PWR0116" H 4850 5050 50  0001 C CNN
+F 1 "+5V" H 4865 5373 50  0000 C CNN
+F 2 "" H 4850 5200 50  0001 C CNN
+F 3 "" H 4850 5200 50  0001 C CNN
+	1    4850 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5F1E37EC
+P 4550 5350
+F 0 "C7" V 4298 5350 50  0000 C CNN
+F 1 "0.1u" V 4389 5350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4588 5200 50  0001 C CNN
+F 3 "~" H 4550 5350 50  0001 C CNN
+	1    4550 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 5200 4850 5200
+Wire Wire Line
+	4500 5200 4550 5200
+Connection ~ 4550 5200
+$Comp
+L power:GND #PWR0107
+U 1 1 5F1E37F2
+P 4200 5650
+F 0 "#PWR0107" H 4200 5400 50  0001 C CNN
+F 1 "GND" H 4205 5477 50  0000 C CNN
+F 2 "" H 4200 5650 50  0001 C CNN
+F 3 "" H 4200 5650 50  0001 C CNN
+	1    4200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U1
+U 1 1 5F6B4EF4
+P 4200 5200
+F 0 "U1" H 4200 5442 50  0000 C CNN
+F 1 "L7805" H 4200 5351 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4225 5050 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4200 5150 50  0001 C CNN
+	1    4200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5F6C0A7A
+P 2750 3300
+F 0 "#PWR0101" H 2750 3150 50  0001 C CNN
+F 1 "+5V" H 2765 3473 50  0000 C CNN
+F 2 "" H 2750 3300 50  0001 C CNN
+F 3 "" H 2750 3300 50  0001 C CNN
+	1    2750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5F6C4162
+P 3850 2900
+F 0 "#PWR0102" H 3850 2750 50  0001 C CNN
+F 1 "+5V" H 3865 3073 50  0000 C CNN
+F 2 "" H 3850 2900 50  0001 C CNN
+F 3 "" H 3850 2900 50  0001 C CNN
+	1    3850 2900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5750 3400
+NoConn ~ 5750 3300
+Wire Wire Line
+	6250 4100 6250 2950
+Wire Wire Line
+	6250 2950 6850 2950
+Wire Wire Line
+	6350 4200 6350 3850
+Wire Wire Line
+	6350 3850 6850 3850
+Wire Wire Line
+	6450 3950 6450 3600
+Wire Wire Line
+	6450 3600 5750 3600
+Wire Wire Line
+	5750 3500 6450 3500
+Wire Wire Line
+	6450 3500 6450 3050
+Wire Wire Line
+	6450 3050 6850 3050
+$Comp
+L Device:CP C1
+U 1 1 5F6F2232
+P 5700 5950
+F 0 "C1" H 5818 5996 50  0000 L CNN
+F 1 "47u" H 5818 5905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5738 5800 50  0001 C CNN
+F 3 "~" H 5700 5950 50  0001 C CNN
+	1    5700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F6F3C80
+P 5850 6100
+F 0 "#PWR0103" H 5850 5850 50  0001 C CNN
+F 1 "GND" H 5855 5927 50  0000 C CNN
+F 2 "" H 5850 6100 50  0001 C CNN
+F 3 "" H 5850 6100 50  0001 C CNN
+	1    5850 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C8
+U 1 1 5F6F7D6E
+P 7800 4600
+F 0 "C8" H 7918 4646 50  0000 L CNN
+F 1 "1000u" H 7918 4555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7838 4450 50  0001 C CNN
+F 3 "~" H 7800 4600 50  0001 C CNN
+	1    7800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F6F7D74
+P 7950 4750
+F 0 "#PWR0104" H 7950 4500 50  0001 C CNN
+F 1 "GND" H 7955 4577 50  0000 C CNN
+F 2 "" H 7950 4750 50  0001 C CNN
+F 3 "" H 7950 4750 50  0001 C CNN
+	1    7950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4450 6850 4450
+$Comp
+L Device:CP C2
+U 1 1 5F70B2A1
+P 6050 5950
+F 0 "C2" H 6168 5996 50  0000 L CNN
+F 1 "1000u" H 6168 5905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 6088 5800 50  0001 C CNN
+F 3 "~" H 6050 5950 50  0001 C CNN
+	1    6050 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5800 5700 5800
+Connection ~ 6050 5800
+Connection ~ 5700 5800
+Wire Wire Line
+	5700 6100 5850 6100
+Connection ~ 5850 6100
+Wire Wire Line
+	5850 6100 6050 6100
+Connection ~ 6850 4450
+Wire Wire Line
+	6850 4450 7800 4450
+$Comp
+L Device:C C12
+U 1 1 5F71747B
+P 8150 4600
+F 0 "C12" H 8265 4646 50  0000 L CNN
+F 1 "10u" H 8265 4555 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8188 4450 50  0001 C CNN
+F 3 "~" H 8150 4600 50  0001 C CNN
+	1    8150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4450 8150 4450
+Connection ~ 7800 4450
+Connection ~ 7950 4750
+Wire Wire Line
+	7950 4750 7800 4750
+Wire Wire Line
+	8150 4750 7950 4750
+$Comp
+L Device:CP C5
+U 1 1 5F729ABC
+P 7800 3700
+F 0 "C5" H 7918 3746 50  0000 L CNN
+F 1 "1000u" H 7918 3655 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7838 3550 50  0001 C CNN
+F 3 "~" H 7800 3700 50  0001 C CNN
+	1    7800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F729AC2
+P 7950 3850
+F 0 "#PWR0105" H 7950 3600 50  0001 C CNN
+F 1 "GND" H 7955 3677 50  0000 C CNN
+F 2 "" H 7950 3850 50  0001 C CNN
+F 3 "" H 7950 3850 50  0001 C CNN
+	1    7950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3550 7800 3550
+$Comp
+L Device:C C11
+U 1 1 5F729AC9
+P 8150 3700
+F 0 "C11" H 8265 3746 50  0000 L CNN
+F 1 "10u" H 8265 3655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8188 3550 50  0001 C CNN
+F 3 "~" H 8150 3700 50  0001 C CNN
+	1    8150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3550 8150 3550
+Connection ~ 7800 3550
+Connection ~ 7950 3850
+Wire Wire Line
+	7950 3850 7800 3850
+Wire Wire Line
+	8150 3850 7950 3850
+$Comp
+L Device:CP C4
+U 1 1 5F72C433
+P 7800 2800
+F 0 "C4" H 7918 2846 50  0000 L CNN
+F 1 "1000u" H 7918 2755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7838 2650 50  0001 C CNN
+F 3 "~" H 7800 2800 50  0001 C CNN
+	1    7800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F72C439
+P 7950 2950
+F 0 "#PWR0106" H 7950 2700 50  0001 C CNN
+F 1 "GND" H 7955 2777 50  0000 C CNN
+F 2 "" H 7950 2950 50  0001 C CNN
+F 3 "" H 7950 2950 50  0001 C CNN
+	1    7950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2650 7800 2650
+$Comp
+L Device:C C10
+U 1 1 5F72C440
+P 8150 2800
+F 0 "C10" H 8265 2846 50  0000 L CNN
+F 1 "10u" H 8265 2755 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8188 2650 50  0001 C CNN
+F 3 "~" H 8150 2800 50  0001 C CNN
+	1    8150 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2650 8150 2650
+Connection ~ 7800 2650
+Connection ~ 7950 2950
+Wire Wire Line
+	7950 2950 7800 2950
+Wire Wire Line
+	8150 2950 7950 2950
+$Comp
+L Device:CP C3
+U 1 1 5F72F268
+P 7800 1900
+F 0 "C3" H 7918 1946 50  0000 L CNN
+F 1 "1000u" H 7918 1855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7838 1750 50  0001 C CNN
+F 3 "~" H 7800 1900 50  0001 C CNN
+	1    7800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5F72F26E
+P 7950 2050
+F 0 "#PWR0108" H 7950 1800 50  0001 C CNN
+F 1 "GND" H 7955 1877 50  0000 C CNN
+F 2 "" H 7950 2050 50  0001 C CNN
+F 3 "" H 7950 2050 50  0001 C CNN
+	1    7950 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1750 7800 1750
+$Comp
+L Device:C C9
+U 1 1 5F72F275
+P 8150 1900
+F 0 "C9" H 8265 1946 50  0000 L CNN
+F 1 "10u" H 8265 1855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8188 1750 50  0001 C CNN
+F 3 "~" H 8150 1900 50  0001 C CNN
+	1    8150 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1750 8150 1750
+Connection ~ 7800 1750
+Connection ~ 7950 2050
+Wire Wire Line
+	7950 2050 7800 2050
+Wire Wire Line
+	8150 2050 7950 2050
+$EndSCHEMATC
